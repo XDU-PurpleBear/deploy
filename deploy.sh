@@ -96,5 +96,6 @@ logInfo compile back end
 cd $PWD
 git clone https://github.com/XDU-PurpleBear/backend.git tmp/backend
 pip install flask psycopg2
+cp tmp/frontend/build/build/bundle.js tmp/backend/final_release/static
 cd tmp/backend
 python main.py
